@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeTable Creator - Easily Create & View Your Timetable</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-calendar-alt"></i>
+                <span>TimeTable Creator</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Easily Create & View Your Timetable
+                </h1>
+                <p class="hero-subtitle">
+                    Organize your schedule efficiently with our intuitive timetable creator. 
+                    Plan your days, weeks, and months with ease.
+                </p>
+                <div class="hero-buttons">
+                    <a href="createtimetable.html" class="btn btn-primary">
+                        <i class="fas fa-plus"></i>
+                        Create Timetable
+                    </a>
+                    <a href="viewtimetable.html" class="btn btn-secondary">
+                        <i class="fas fa-eye"></i>
+                        View Timetable
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="timetable-preview">
+                    <div class="preview-header">
+                        <span>Sample Timetable</span>
+                    </div>
+                    <div class="preview-grid">
+                        <div class="preview-cell">Mon</div>
+                        <div class="preview-cell">Tue</div>
+                        <div class="preview-cell">Wed</div>
+                        <div class="preview-cell">Thu</div>
+                        <div class="preview-cell">Fri</div>
+                        <div class="preview-cell event">Math</div>
+                        <div class="preview-cell event">Science</div>
+                        <div class="preview-cell event">English</div>
+                        <div class="preview-cell event">History</div>
+                        <div class="preview-cell event">Art</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About TimeTable Creator</h2>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-magic"></i>
+                    <h3>Easy to Use</h3>
+                    <p>Intuitive interface that makes timetable creation a breeze.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Access your timetable from any device, anywhere, anytime.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-share-alt"></i>
+                    <h3>Share & Export</h3>
+                    <p>Share your timetables with others or export them easily.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@timetablecreator.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>123 Time Street, Schedule City, TC 12345</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 TimeTable Creator. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
